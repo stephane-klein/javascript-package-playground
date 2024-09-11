@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import lib1 from 'lib1';
+    import multiply from 'lib2';
+</script>
+<p>Add: {lib1.add(1, 2)}</p>
+
+<p>Multiply: {multiply(2, 8)}</p>
