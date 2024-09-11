@@ -1,4 +1,4 @@
- This playground features :
+ This playground includes :
 
 - [`packages/lib1/`](packgaes/lib1/)
 - [`packages/lib2/`](packgaes/lib2/)
