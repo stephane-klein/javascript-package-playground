@@ -54,3 +54,10 @@ For example, I don't understand why I had to activate `“checkJs”: false` in 
 
 
 The [jsconfig.json file can also be named tsconfig.json](https://www.typescriptlang.org/tsconfig/), and I chose jsconfig.json because this playground is a javascript project.
+
+To test the playground, go to:
+
+- [`packages/lib1/README.md`](packgaes/lib1/README.md)
+- [`packages/lib2/README.md`](packgaes/lib2/README.md)
+- [`services/app1_node/README.md`](services/app1_node/README.md)
+- [`services/app2_sveltekit/README.md`](services/app2_sveltekit/README.md)
