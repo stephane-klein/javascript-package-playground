@@ -6,7 +6,7 @@
         "start": "node src/index.js"
     },
     "dependencies": {
-        "lib1": "workspace:*",
-        "lib2": "workspace:*"
+        "lib1": "0.1.0",
+        "lib2": "0.1.0"
     }
 }

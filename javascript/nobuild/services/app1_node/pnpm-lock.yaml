@@ -1,0 +1,16 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      lib1:
+        specifier: 0.1.0
+        version: link:../../packages/lib1
+      lib2:
+        specifier: 0.1.0
+        version: link:../../packages/lib2

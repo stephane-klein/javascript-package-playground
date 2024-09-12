@@ -39,6 +39,21 @@ With `pnpm workpsace` feature, executing `pnpm install` from any folder (`packag
         └── ...
 ```
 
+I have configured these files `services/app1_node/.npmrc`, `services/app2_sveltekit/.npmrc` with these options:
+
+```
+link-workspace-packages=true
+prefer-workspace-packages=true
+shared-workspace-lockfile=false
+```
+
+- [`link-workspace-packages=true`](https://pnpm.io/npmrc#link-workspace-packages)
+- [`prefer-workspace-packages=true`](https://pnpm.io/npmrc#prefer-workspace-packages)
+- [`shared-workspace-lockfile=false`](https://pnpm.io/npmrc#shared-workspace-lockfile)
+
+Why? Because if I put a Dockerfile in these folders, then I'd need a `pnpm-lock.yaml` file and a `package.json` file with no mention of `workspace`.
+
+
 Since this project is not a TypeScript project, i.e. a pure Javascript project with no type, I had configured the 
 
 - [`packages/lib1/jsconfig.json`](packages/lib1/jsconfig.json),
