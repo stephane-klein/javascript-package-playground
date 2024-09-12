@@ -24,7 +24,7 @@ It's important to include `services/*` in addition to `packages/*`.
 
 These lines are important in the `packages/lib1/package.json` and `packages/lib2/package.json`.
 
-With `pnpm workpsace` fetaure, executing `pnpm install` from any folder (`packages/lib1/`, `packages/lib2/`, `services/app1_node/`, `services/app2_sveltekit/` creates all these `node_modules`:
+With `pnpm workpsace` feature, executing `pnpm install` from any folder (`packages/lib1/`, `packages/lib2/`, `services/app1_node/`, `services/app2_sveltekit/` creates all these `node_modules`:
 ```
 .
 ├── node_modules
